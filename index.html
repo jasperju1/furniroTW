@@ -5,16 +5,15 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
     <title>Furniro</title>
 </head>
 <body>
-    <header class="p-4 flex flex-row items-center justify-between">
-        <div class="items-center flex-row flex">
+    <header class="p-4 flex sm:gap-0 gap-5 flex-row items-center sm:justify-between">
+        <div class="items-center flex-row flex gap-4 sm:gap-0">
             <a href="index.html"><img class="w-18 h-16" src="https://s3-alpha-sig.figma.com/img/2727/769b/a74736d502746301ed573ed8940fc322?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YnLpv-owU2TvQvRRvGTEYd4v--WctP0yP15VuEjXTry25KW5Y6O4o~AcGk48gS6G03GUy~HbLjyqpcKyiTrC~wdVbf83hw8-I9bWZ2hAr~L50gRCj7wttOt-tuq62tk-qApQsUR3wM~pSd9dq8snoU8ywY00wLdAPFkUHbdV6Qbx79GBOyncu8sfwIm14~pGyj1S0tOqHRBlh1LvbZGIW-POC75Osl64-zpYmxVuuVAI3xviX-YID~6suMidfavh3rMIWSoEkOE6n9nSJWYwyUFc~nvByfbjDBt5XniRIznmNYSRJii21iYP2f-zXO6gftIHF2s3CQLeaI8s6~2GKQ__" alt=""></a>
-            <a class="font-bold text-3xl" href="index.html">Furniro</a>
+            <a class="font-bold text-xl sm:text-3xl" href="index.html">Furniro</a>
         </div>
-        <div class="flex gap-15 font-medium">
+        <div class="flex gap-5 sm:gap-15 items-center font-medium">
             <a href="index.html">Home</a>
             <a href="Shop.html">Shop</a>
             <a href="About.html">About</a>
@@ -27,19 +26,19 @@
             <a href="Asgaard.html"><img src="pics/Vector (3).png" alt=""></a>
         </div>
     </header>
-    <div class="bg-cover bg-center h-screen " style="background-image: url('pics/scandinavian-interior-mockup-wall-decal-background 1.png');">
-        <div class="flex justify-end pt-70 pr-30">
-            <div class="bg-[#FFF3E3] w-145 p-10">
+    <div class="sm:bg-cover bg-center sm:h-screen" style="background-image: url('pics/scandinavian-interior-mockup-wall-decal-background 1.png');">
+        <div class="flex justify-end sm:pt-70 sm:pr-30">
+            <div class="bg-[#FFF3E3] sm:w-145 sm:p-10 sm:mt-0 sm:mb-0 sm:mr-0 w-75 mr-5 p-8 mt-15 mb-30">
                 <p class="font-semibold mb-2">New Arrival</p>
-                <p class="text-[#B88E2F] font-bold text-5xl mb-5">Discover Our <br> New Collection</p>
-                <p class="font-medium mb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.</p>
-                <a class="font-bold text-white bg-[#B88E2F] p-4 pr-18 pl-18" href="#Store">BUY NOW</a>
+                <p class="text-[#B88E2F] font-bold text-3xl sm:text-5xl mb-5">Discover Our <br> New Collection</p>
+                <p class="font-medium sm:mb-15 mb-10 sm:text-base text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.</p>
+                <a class="font-bold text-white bg-[#B88E2F] p-4 pr-18 pl-18" href="Asgaard.html">BUY NOW</a>
             </div>
         </div>
     </div>
     <div class="flex justify-center flex-col items-center mt-15 mb-15">
-        <p class="text-[#333333] font-bold text-3xl">Browse The Range</p>
-        <p class="text-[#666666] text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p class="text-[#333333] font-bold text-2xl sm:text-3xl">Browse The Range</p>
+        <p class="text-[#666666] text-base sm:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
     <div class="flex justify-center items-center gap-5">
         <div class="flex flex-col items-center">
@@ -148,16 +147,17 @@
         </div>
         <img class="w-full" src="pics/Images (2).png" alt="">
     </div>
+
     <footer class="flex justify-center items-center">
         <div class="border-t-1 mt-15 border-[#0000002B]">
-            <div class="p-20 flex gap-40">
+            <div class="p-20 flex sm:gap-40">
                 <div class="flex items-left flex-col">
                     <h1 class="font-bold text-2xl flex pb-10">Furniro.</h1>
                     <p class="text-[#9F9F9F] font-base">400 University Drive Suite 200 Coral <br> Gables,</p>
                     <p class="text-[#9F9F9F]">FL 33134 USA</p>
                 </div>
                 
-                <div class="flex flex-col gap-10">
+                <div class="flex flex-col sm:gap-10">
                     <p class="text-[#9F9F9F] font-medium">Links</p>
                     <a href="index.html" class="font-medium">Home</a>
                     <a href="Shop.html" class="font-medium">Shop</a>
@@ -165,14 +165,14 @@
                     <a href="Contact.html" class="font-medium">Contact</a>
                 </div>
                 
-                <div class="flex flex-col gap-10">
+                <div class="flex flex-col sm:gap-10">
                     <p class="text-[#9F9F9F] font-medium">Help</p>
                     <p class="font-medium">Payment Options</p>
                     <p class="font-medium">Returns</p>
                     <p class="font-medium">Privacy Policies</p>
                 </div>
                 
-                <div class="flex flex-col gap-10">
+                <div class="flex flex-col sm:gap-10">
                     <p class="text-[#9F9F9F] font-medium">Newsletter</p>
                     <div class="flex gap-5">
                         <p class="font-base underline text-zinc-400 underline-offset-10 decoration-black">Enter Your E-mail Address</p>
@@ -181,9 +181,9 @@
                 </div>
             </div>
             <div class="flex justify-center">
-                <img class="w-370 p-5" src="pics/Images/Line.png" alt="">
+                <img class="sm:w-370 p-5" src="pics/Images/Line.png" alt="">
             </div>
-            <div class="p-5 pl-30 mb-5 border-t-1 border-[#0000002B]">
+            <div class="p-5 sm:pl-30 mb-5 border-t-1 border-[#0000002B]">
                 <p>2023 furnino. All rights reserved</p>
             </div>
         </div>
